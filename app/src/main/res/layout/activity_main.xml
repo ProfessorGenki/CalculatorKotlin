@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="8dp"
+              android:layout_marginRight="8dp"
+              android:layout_marginTop="8dp"
+              tools:context=".MainActivity">
+
+    <EditText
+            android:id="@+id/no1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="type a number"
+            android:inputType="numberDecimal" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:text="+" />
+
+    <EditText
+            android:id="@+id/no2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="type a number"
+            android:inputType="numberDecimal" />
+
+    <Button
+            android:id="@+id/eq"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:outlineAmbientShadowColor="@color/colorAccent"
+            android:text="=" />
+
+</LinearLayout>
